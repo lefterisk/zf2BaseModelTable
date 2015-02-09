@@ -8,6 +8,7 @@ use Zend\Db\TableGateway\TableGateway;
 abstract class AbstractTable
 {
     protected $_tableGateway;
+    protected $_model;
 
     public function __construct(TableGateway $tableGateway)
     {
